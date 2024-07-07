@@ -632,9 +632,10 @@ body.dark-theme {
     border-color: rgb(27, 182, 148);
 }
 
-/* Page preview fixes */
+/* Page preview fixes 
+Yeah nice fixes, these don't freaking work for some reason -Octostomp */
 .dark-theme .mwe-popups {
-    background: #181a1b;
+    background: #181a1b; /* This should change the colour of the background of the preview. Did it? I don't think so. */
 }
 .dark-theme .mwe-popups.flipped-y:after,
 .dark-theme .mwe-popups.mwe-popups-no-image-pointer:after,
@@ -646,7 +647,7 @@ body.dark-theme {
 .dark-theme .mwe-popups *,
 .dark-theme .mwe-popups a.mwe-popups-extract,
 .dark-theme .mwe-popups a.mwe-popups-extract:link {
-    color: #dfdedd;
+    color: #000; /*This probably doesn't work but do I have a choice at this point? I don't even code I just know a little bit of python */
 }
 .dark-theme .mwe-popups .mwe-popups-extract[dir='ltr']:after,
 .dark-theme .mwe-popups .mwe-popups-extract[dir='rtl']:after {
